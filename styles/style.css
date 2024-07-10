@@ -1,0 +1,1186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.page-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: auto;
+}
+
+/* ----------------Header starts here --------------*/
+.header-top {
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient(to right, #84368D, #4C2F91);
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 17px 15px 17px; 
+}
+
+.main-header {
+    width: 100%;
+    height: 87px;
+    padding: 12.5px 15.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around; 
+    gap: 30px; 
+}
+
+.main-header ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #111111;
+}
+
+.main-header ul li:first-child a{
+    font-weight: bold;
+    color: #6EB43F;
+    border-bottom: 2px solid #6EB43F;
+}
+
+.main-header ul li:last-child a{
+    color: #92278F;
+    border-bottom: 2px solid #92278F;
+}
+/* ----------------Header ends here --------------*/
+
+
+/* ----------------Banner starts here --------------*/
+.banner{
+    width: 100%;
+    height: 346px;
+    background-image: linear-gradient(to right, rgba(174,53,148, 1.0) 0%, rgba(108,46,116, 0) 100%), url("../images/banner.png");
+    position: relative;
+}
+
+.bnr-overlay {
+    position: absolute;
+    width: 658px;
+    height: 248px;
+    top: 49px;
+    left: 0;
+    /* border: 1px solid white; */
+}
+
+.bnr-overlay .top {
+    height: 76px;
+    padding: 10px 24px 10px 32px;
+    background-color: #6EB43F;
+    border-radius: 0 10px 10px 0;
+    margin-bottom: 43px;
+}
+
+.bnr-overlay .top p{
+    width: 567px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 140%;
+}
+
+.bnr-overlay .bottom {
+    width: 626px;
+    height: 129px;
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid yellow; */
+}
+
+.bnr-overlay .bottom .left{
+    width: 130px;
+    height: 129px;
+}
+
+.bnr-overlay .bottom .left img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.bnr-overlay .bottom .right{
+    margin-left: 26px;
+    width: 470px;
+    height: 102px;
+}
+
+.bnr-overlay .bottom .right p {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 120%;
+    color: #fff;
+}
+/* ----------------Banner ends here --------------*/
+
+/* ----------------Paras starts here --------------*/
+.para1 {
+    width: 1184.14px;
+    height: 81px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: rgba(17,17,17, 0.8);
+    margin: 30px auto 22px auto;
+    line-height: 27px;
+}
+
+.para2-div {
+    width: 1280px;
+    height: 105px;
+    border-radius: 37px 8px 37px 8px;
+    background-color: #6EB43F;
+    margin: 0 auto;
+    padding: 20.5px 102px;
+    margin-bottom: 22px;
+}
+
+.para2 {
+    width: 1076px;
+    height: 64px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+    color: #fff;
+}
+
+.para2 span {
+    color: #9A008B;
+}
+
+.para2 a{
+    text-decoration: none;
+    color: #16065D;
+}
+/* ----------------Paras ends here --------------*/
+
+/* ----------------Patient char starts here --------------*/
+.patient-char {
+    max-width: 1440px;
+    height: 668px;
+    background-color: #E6E7E9;
+    padding: 32px 0;
+}
+
+.patient-char h2{
+    width: 380px;
+    height: 72px;
+    background-color: #16065D;
+    color: #fff;
+    border-radius: 0 4px 37px 0;
+    padding: 22px 39px 22px 80px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.chars {
+    width: 1280px;
+    height: 170px;
+    /* border: 1px solid black; */
+    margin: 20px 72px 20px 88px;
+}
+
+.chars ul {
+    list-style-type: none;
+    list-style-image: url('../images/marker.png');
+    padding-left: 20px;
+    width: 100%;
+    height: 140px;
+}
+
+.chars ul li{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(17,17,17, 0.8);
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.chars p{
+    height: 16px;
+    font-size: 14px;
+    font-weight: regular;
+    color: rgba(17, 17,17, 0.7);
+    margin-top: 14px;
+}
+
+
+.sug-wrapper {
+    width: 994px;
+    height: 322px;
+    /* border: 1px solid black; */
+    margin: 20px auto 32px auto;
+    position: relative;
+    padding-top: 33px; 
+}
+
+.q-mark {
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    top: 0;
+    left: 460.5px;
+    z-index: 2;
+    /* border: 1px solid blue; */
+}
+
+.q-mark img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.sug-cont{
+    position: relative;
+    width: 994px;
+    height: 289px;
+    /* border: 1px solid red ; */
+    background-color: #fff;
+    border-radius: 37px 8px 37px 8px;
+}
+
+.sug-cont .line{
+    position: absolute;
+    width: 841px;
+    height: 6px;
+    background-color: #6EB43F;
+    top: 0;
+    left: 76.5px;
+}
+
+.suggestions {
+    position: absolute;
+    width: 770px;
+    height: 214px;
+    margin: 57px auto 17px 54px;
+    /* border: 1px solid black; */
+}
+
+.suggestions p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #111;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.suggestions ul{
+    list-style-type: none;
+}
+
+.suggestions ul li{
+    height: 31px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #6EB43F;
+    line-height: 28px;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.suggestions ul li span{
+    display: inline-flex;
+    color: #fff;
+    width: 31px;
+    height: 31px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #6EB43F;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center; 
+}
+/* ----------------Patient char ends here --------------*/
+
+/* ----------------Follow-up starts here --------------*/
+.follow-up{
+    max-width: 1440px;
+    height: 398px;
+    padding: 38px 80px 50px 0;
+}
+
+.follow-up h2{
+    width: 825px;
+    height: 72px;
+    background-color: #16065D;
+    color: #fff;
+    border-radius: 0 4px 37px 0;
+    padding: 22px 39px 22px 80px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.follow-up-plan {
+    width: 1280px;
+    height: 218px;
+    /* border: 1px solid black; */
+    margin: 20px 0 0 80px;
+}
+
+.follow-up-plan ul {
+    width: 100%;
+    height: 188px;
+    list-style-type: none;
+    list-style-image: url('../images/marker.png');
+    padding-left: 20px;
+    /* border: 1px solid blue; */
+}
+
+.follow-up-plan ul li {
+    margin-bottom: 11px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(17, 17, 17, 0.8);
+}
+
+.follow-up-plan p{
+    font-size: 14px;
+    font-weight:400;
+    color:rgba(17, 17,17, 0.7);
+}
+/* ----------------Follow-up ends here --------------*/
+
+/* ----------------Jakafi starts here --------------*/
+.jakafi {
+    max-width: 1440px;
+    height: 320px;
+    background-image: url('../images/jakafi-bg.png');
+    object-fit: cover;
+    padding: 22px 80px;
+}
+
+.jakafi p{
+    color: #fff;
+    /* border: 1px solid yellow; */
+    margin-bottom: 16px;
+}
+
+.jakafi p:first-child{
+    font-size: 22px;
+    font-weight: 500;
+    height: 25px;
+    margin-top: 16px;
+}
+
+.jakafi p:nth-child(2) {
+    font-size: 50px;
+    font-weight: bold;
+    height: 71px;
+    padding: 10.5px 0;
+}
+
+.jakafi p:nth-child(3) {
+    font-size: 35px;
+    font-weight: 500;
+    height: 39px;
+}
+
+.jakafi p:last-child{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    height: 66px;
+    margin-bottom: 0;
+}
+/* ----------------Jakafi ends here --------------*/
+
+/* ----------------Jakafi-vs-bat starts here --------------*/
+.jakafi-vs-bat {
+    max-width: 1440px;
+    padding: 20px 80px 20px 0;
+}
+
+.jakafi-vs-bat h2{
+    width: 990px;
+    height: 71px;
+    background-color: #16065D;
+    color: #fff;
+    border-radius: 0 4px 37px 0;
+    padding: 22px 39px 22px 80px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.grid-container{
+    width: 1280px;
+    height: 516px;
+    display: grid;
+    grid-template-columns: 630px 630px;
+    /* border: 1px solid black; */
+    column-gap: 20px;
+    margin: 20px 0 20px 80px;
+}
+
+.grid-container .grid-itm {
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+    box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.grid-container .grid-itm h3 {
+    width: 100%;
+    height: 52px;
+    padding: 12px 0;
+    background-color: #6C2E74;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+}
+
+.grid-container .grid-itm .graph-container {
+    width: 100%;
+    height: 464px;
+    padding: 15px 114.5px;
+}
+
+.grid-container .grid-itm .graph-container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.jakafi-vs-bat .note {
+    margin-left: 80px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(17, 17, 17, 0.8);
+    position: relative;
+    padding-left: 15px;
+}
+
+.jakafi-vs-bat .note span::before{
+    position: absolute;
+    content: url('../images/marker.png');
+    top: 3px;
+    left: 0;
+}
+
+.expert-voice {
+    width: 1280px;
+    /* border: 1px solid black; */
+    margin: 25px 80px;
+    height: 281px;
+    position: relative;
+    border-radius: 0 133px 0 133px;
+    background: linear-gradient(90deg, #84368D -6.15%, #4C2F91 100%);
+    margin-top: 53px;
+}
+
+.expert-voice .quot-mark img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.expert-voice .quot-mark {
+    width: 89px;
+    height: 89px;
+    position: absolute;
+    bottom: 220px;
+    left: 20px;
+    z-index: 1;
+    /* border: 1px solid green; */
+}
+
+.expert-voice .voice{
+    position: absolute;
+    width: 802px;
+    height: 177px;
+    bottom: 37px;
+    left: 67px;
+    /* border: 1px solid white; */
+}
+.expert-voice .voice p{
+    width: 761px;
+    height: 96px;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.expert-voice .voice .expert-name{
+    /* border: 1px solid blue; */
+    height: 64px;
+    width: 761px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.expert-voice .expert-img {
+    position: absolute;
+    width: 312px;
+    height: 281px;
+    bottom: 0;
+    right: 0;
+    /* border: 1px solid white; */
+}
+
+.expert-voice .expert-img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.expert-voice .voice .line{
+    position: absolute;
+    width: 29px;
+    height: 0px;
+    left: 0;
+    bottom: 45px;
+    border: 1px solid #FFFFFF;
+}
+
+.jakafi-footnote {
+    width: 1280px;
+    height: 228px;
+    /* border: 1px solid black; */
+    margin: 25px 80px 40px 80px;
+}
+
+.jakafi-footnote p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(17, 17,17, 0.7);
+}
+
+.jakafi-footnote div{
+    margin: 10px 0;
+}
+
+.jakafi-footnote div p:nth-child(2){
+    margin: 4px 0;
+}
+/* ----------------Jakafi-vs-bat ends here --------------*/
+
+/* ----------------response rate starts here --------------*/
+.response-rate {
+    max-width: 1440px;
+    height: 980px;
+    background-color: #E6E7E9;
+    padding: 32px 80px 32px 0;
+}
+
+.response-rate h2{
+    width: 1125px;
+    height: 72px;
+    padding: 22px 39px 22px 80px;
+    background-color: #16065D;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 0 4px 37px 0;
+}
+
+.response-rate .graph-container{
+    width: 1280px;
+    height: 450px;
+    background-color: #fff;
+    margin: 20px 80px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
+}
+
+.response-rate .graph-container h3{
+    height: 52px;
+    width: 100%;
+    padding: 18px 0;
+    text-align: center;
+    background-color: #6C2E74;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+.response-rate .graph-container div{
+    width: 100%;
+    height: 398px;
+    padding: 35px 63px;
+}
+
+.response-rate .graph-container div img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.response-rate .footnote{
+    width: 1280px;
+    height: 44px;
+    margin: 20px 80px;
+    /* border: 1px solid black; */
+}
+
+.response-rate .footnote p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(17, 17,17, 0.7);
+}
+
+.response-rate .footnote p:last-child{
+    margin-top: 4px;
+}
+
+.rr-expert-voice {
+    width: 1280px;
+    /* border: 1px solid black; */
+    margin: 25px 80px;
+    height: 257px;
+    position: relative;
+    border-radius: 0 133px 0 133px;
+    background: linear-gradient(90deg, #84368D -6.15%, #4C2F91 100%);
+    margin-top: 53px;
+}
+
+.rr-expert-voice .quot-mark img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.rr-expert-voice .quot-mark {
+    width: 89px;
+    height: 89px;
+    position: absolute;
+    bottom: 200px;
+    left: 20px;
+    z-index: 1;
+    /* border: 1px solid green; */
+}
+
+.rr-expert-voice .voice{
+    position: absolute;
+    width: 802px;
+    height: 177px;
+    bottom: 15px;
+    left: 80px;
+    /* border: 1px solid white; */
+}
+.rr-expert-voice .voice p{
+    width: 761px;
+    height: 96px;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.rr-expert-voice .voice .expert-name{
+    /* border: 1px solid blue; */
+    height: 64px;
+    width: 761px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.rr-expert-voice .expert-img {
+    position: absolute;
+    width: 254px;
+    height: 246px;
+    bottom: 0;
+    right: 40px;
+    /* border: 1px solid white; */
+}
+
+.rr-expert-voice .expert-img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.rr-expert-voice .voice .line{
+    position: absolute;
+    width: 29px;
+    height: 0px;
+    left: 0;
+    bottom: 45px;
+    border: 1px solid #FFFFFF;
+}
+/* ----------------response rate ends here --------------*/
+
+/* ----------------jakafi demonstrated starts here --------------*/
+.jakafi-demonstrated {
+    max-width: 1440px;
+    padding: 30px 80px 30px 0;
+}
+
+.jakafi-demonstrated > p{
+    color: #111;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+
+.jakafi-demonstrated h2{
+    width: 1293px;
+    height: 72px;
+    padding: 17px 39px 22px 80px;
+    background-color: #16065D;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 0 4px 37px 0;
+}
+
+.dor-graph {
+    width: 1280px;
+    height: 468px;
+    margin: 20px 80px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.jakafi-demonstrated .dor-graph h3{
+    height: 52px;
+    width: 100%;
+    padding: 18px 0;
+    text-align: center;
+    background-color: #6C2E74;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+.jakafi-demonstrated .dor-graph div{
+    width: 100%;
+    height: 398px;
+    padding: 23px 328.5px;
+}
+
+.jakafi-demonstrated .dor-graph div img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.jakafi-demonstrated .note {
+    margin-left: 80px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(17, 17, 17, 0.8);
+    position: relative;
+    padding-left: 15px;
+}
+
+.jakafi-demonstrated .note span::before{
+    position: absolute;
+    content: url('../images/marker.png');
+    bottom: 32px;
+    left: 0;
+}
+
+.jakafi-demonstrated > h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #78348E;
+    line-height: 32px;
+    margin-left: 80px;
+}
+
+.jakafi-demonstrated .probability {
+    width: 920px;
+    height: 136px;
+    border-radius: 10px 85px 10px 85px;
+    border: 3px solid rgba(120, 52, 142, 1);
+    margin: 10px 0;
+    padding: 19px 28px 19px 44px;
+}
+
+.jakafi-demonstrated .pb1{
+    margin-left: 91px;
+    
+}
+
+.jakafi-demonstrated .pb2{
+    margin-left: 445px;
+}
+
+.jakafi-demonstrated .probability p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #111;
+}
+
+.probability .big-text {
+    font-size: 50px;
+    font-weight: 900;
+    color: #78348E;
+    margin-right: 20px;
+}
+
+.probability .normal {
+    font-weight: normal;
+}
+
+.jakafi-demonstrated-footnote {
+    width: 1280px;
+    height: 93px;
+    /* border: 1px solid blue; */
+    margin-left: 80px;
+    margin-top: 25px;
+}
+
+.jakafi-demonstrated-footnote .note {
+    margin-left: 0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(17, 17, 17, 0.8);
+    position: relative;
+    padding-left: 15px;
+}
+
+.jakafi-demonstrated-footnote .note span::before{
+    position: absolute;
+    content: url('../images/marker.png');
+    bottom: 3px;
+    left: 0;
+}
+
+.jakafi-demonstrated-footnote p:last-child{
+    margin-top: 10px;
+    font-size: 14px;
+    color:rgba(17, 17,17, 0.7);
+    font-weight: normal;
+    line-height: 20px;
+}
+/* ----------------jakafi demonstrated ends here --------------*/
+
+
+/* ----------------jakafi adverse reaction starts here --------------*/
+.jakafi-adverse {
+    max-width: 1440px;
+    height: 1080px;
+    padding: 32px 80px 32px 0;
+    background-color: #E6E7E9;
+}
+
+.jakafi-adverse h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #16065D;
+    width: 399px;
+    height: 72px;
+    border-radius: 0 4px 37px 0;
+    padding: 22px 39px 22px 80px;
+}
+
+.jakafi-adverse p:first-of-type{
+    margin: 21px 0 21px 80px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #111;
+}
+
+/* ----------------------------------table ----------------*/
+.jakafi-adverse table{
+    width: 1280px;
+    height: 648px;
+    margin: 0 80px;
+    /* border: 1px solid red; */
+    border-collapse: collapse;
+    box-shadow: 0px 4px 25px 0px #0000001A;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.jakafi-adverse td {
+    text-align: center;
+    border-left: 2px solid #AF3594;
+}
+.jakafi-adverse td:first-child{
+    border-left: none;
+}
+
+.jakafi-adverse td.col-1 {
+    padding-left: 28px;
+    text-align: left;
+}
+
+.jakafi-adverse table thead .head-row-1{
+    height: 40px;
+    background-color: #6C2E74;
+}
+
+.jakafi-adverse table thead .head-row-1 th {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.jakafi-adverse table thead .head-row-2 {
+    height: 44px;
+    background-color: rgba(216, 211, 233, 0.6);
+    border-bottom: 1px solid #5f5d5de8;
+}
+
+.jakafi-adverse table thead .head-row-2 th{
+    color: rgba(58, 30, 136, 1);
+    font-size: 22px;
+    font-weight: 500;
+    border-left: 2px solid #AF3594;
+}
+
+.jakafi-adverse table thead .head-row-2 th:first-child{
+    border-left: none;
+}
+
+.jakafi-adverse table tbody tr td {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(17, 17, 17, 1);
+}
+
+.jakafi-adverse table tbody tr:nth-child(even){
+    border-top: 1px solid rgba(236, 236, 236, 1);
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
+    background: rgba(230, 231, 233, 0.15);
+
+}
+
+.jakafi-adverse table tbody tr:last-child{
+    border-bottom: none;
+}
+/* ----------------------------------table ----------------*/
+
+.jakafi-adverse .table-note {
+    width: 1280px;
+    height: 85px;
+    /* border: 1px solid red; */
+    margin: 20px 80px;
+}
+.jakafi-adverse .table-note p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(17, 17,17, 0.7);
+    margin: 0 0 4px 0;
+}
+
+.jakafi-adverse .final-analysis {
+    width: 881px;
+    height: 105px;
+    border: 3px solid rgba(120, 52, 142, 1);
+    border-radius: 6px 85px 6px 85px;
+    margin-left: 280px;
+    padding: 18px 51px;
+}
+
+.jakafi-adverse .final-analysis p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #111;
+    margin: 0;
+}
+
+.final-analysis p span{
+    font-weight: bold;
+}
+/* ----------------jakafi adverse reaction ends here --------------*/
+
+/* ----------------references, indication usage, safety starts here --------------*/
+h3.ref{
+    font-size: 20px;
+    font-weight: bold;
+    color: #78348E;
+    margin: 20px 80px;
+}
+
+ol.references{
+    width: 1280px;
+    height: 255px;
+    margin: 10px 80px 30px 80px;
+    /* border: 1px solid black; */
+    list-style-position: inside;
+}
+
+ol.references li{
+    font-size: 16px;
+    font-weight: 16px;
+    line-height: 28px;
+    color: #111;
+}
+
+ol.references li::marker {
+    font-weight: bold;
+}
+
+.indication-usage {
+    width: 1280px;
+    height: 662px;
+    margin: 30px 80px;
+}
+
+h3.indication{
+    font-size: 18px;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 8px;
+}
+
+.indication-usage > p {
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(17, 17,17, 0.7);
+    line-height: 28px;
+}
+
+h3.safety-info{
+    font-size: 18px;
+    font-weight: bold;
+    color: #111;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+ul.safety {
+    list-style-image: url('../images/marker.png');
+    margin-left: 15px;
+}
+
+ul.safety li {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 28px;
+    color: rgba(17, 17,17, 0.7);
+    margin-bottom: 6px;
+}
+
+.indication-usage p:last-child{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 28px;
+    color: #111;
+}
+
+.indication-usage p:last-child a {
+    color: #AF3594;
+    text-decoration: none;
+}
+/* ----------------references, indication usage,safety ends here --------------*/
+
+
+/* ----------------footer starts here --------------*/
+footer {
+    max-width: 1440px;
+    height: 344px;
+    background-color: rgba(230, 231, 233, 0.3);
+    border-top: 1px solid rgba(17, 17, 17, 0.2);
+    padding: 15px 80px;
+}
+
+.footer-top {
+    width: 1280px;
+    height: 165px;
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 83px;
+}
+
+.footer-top .logo {
+    width: 241px;
+    height: 165px;
+}
+
+.footer-top .logo img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.footer-top .texts {
+    width: 457px;
+    height: 146px;
+    /* border: 1px solid black; */
+}
+
+.footer-top .texts p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #111;
+    line-height: 28px;
+}
+
+.footer-top .texts p:last-of-type{
+    font-weight: 600;
+}
+
+
+.footer-bottom {
+    width: 1280px;
+    height: 141px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+}
+
+.footer-bottom p:first-of-type {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #111;
+    margin-bottom: 14px;
+}
+
+.footer-bottom p:first-of-type span {
+    font-style: italic;
+}
+
+.copy-link{
+    display: flex;
+    gap: 28px;
+    height: 28px;
+    /* border: 1px solid blue; */
+}
+
+.copy-link p:first-child{
+    color: #111;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.copy-link ul {
+    display: flex;
+    list-style-type: none;
+    height: 100%;
+    align-items: center;
+    gap: 28px;
+
+}
+.copy-link ul li a{
+    text-decoration: underline;
+    color: #111;
+}
+
+/* ----------------footer ends here --------------*/

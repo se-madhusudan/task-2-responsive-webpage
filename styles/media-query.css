@@ -1,0 +1,885 @@
+/* --------------------header starts------------------- */
+@media screen and (max-width: 1024px) {
+    .main-header {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .main-header img{
+        width: 20vh;
+        object-fit: cover;
+    }
+
+    .main-header ul li a {
+        font-size: 16px;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .main-header ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main-header ul li a{
+        font-size: 16px;
+    }
+
+}
+/* --------------------header ends here------------------- */
+
+
+/* ------------------banner starts--------------------------- */
+@media screen and (max-width: 768px) {
+    .bnr-overlay {
+        width: 80%;
+        height: auto;
+    }
+
+    .bnr-overlay .top {
+        height: auto;
+    }
+
+    .bnr-overlay .top p {
+        font-size: 18px;
+        width: 100%;
+        line-height: 100%;
+    }
+
+    .bnr-overlay .bottom {
+        width: 100%;
+        height: auto;
+        margin-left: 20px;
+    }
+
+    .bnr-overlay .bottom .left {
+        height: auto;
+    }
+
+    .bnr-overlay .bottom .right {
+        height: auto;
+    }
+
+    .bnr-overlay .bottom .right p{
+        font-size: 18px;
+        
+    }
+}
+/* ------------------banner ends here-------------------- */
+
+
+/* ------------------Paras starts here-------------------- */
+@media screen and (max-width: 1024px) {
+    .para1{
+        width: 80%;
+        height: auto;
+        font-size: 18px;
+    }
+
+    .para2-div {
+        width: 80%;
+        height: auto;
+    }
+
+    .para2 {
+        width: 100%;
+        height: auto;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .para2-div {
+        padding: 20.5px 40px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .para2-div {
+        padding: 10.5px 20px;
+    }
+}
+/* ------------------Paras end here-------------------- */
+
+
+/* ------------------Patient char starts here-------------------- */
+@media screen and (max-width: 1024px) {
+    .patient-char{
+        width: 100%;
+        height: auto;
+    }
+
+    .chars {
+        width: 90%;
+        height: auto;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .patient-char {
+        padding: 32px 0 10px 0;
+    }
+
+    .patient-char h2{
+        width: 90%;
+        height: auto;
+        font-size: 20px;
+        padding: 10px 20px 10px 40px;
+    }
+
+    .chars {
+        width: 90%;
+        height: auto;
+        margin: 20px 10px;
+    }
+
+    .chars ul{
+        height: auto;
+    }
+
+    .sug-wrapper {
+        width: 100%;
+        height: auto;
+        margin: 40px auto 14px auto;
+    }
+
+    .q-mark {
+        width: 40px;
+        height: 40px;
+        top: 15px;
+        left: 44%;
+        z-index: 2;
+    }
+
+    .sug-cont{
+        width: 97%;
+        height: auto;
+        padding: 10px 0;
+        margin: 0 10px;
+    }
+
+    .sug-cont .line{
+        width: 80%;
+        left: 10%;
+    }
+    
+    .suggestions {
+        width: 90%;
+        height: auto;
+        margin: 25px auto 15px 25px;
+        position: relative;
+    }
+    
+    .suggestions p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .suggestions ul li {
+        height: auto;
+        font-size: 11px;
+        line-height: 14px;
+        gap: 15px;
+        margin-bottom: 7px;
+    }
+}
+/* ------------------Patient char ends here-------------------- */
+
+
+/* ------------------Follow up starts here-------------------- */
+@media screen and (max-width: 1024px) {
+    .follow-up {
+        width: 100%;
+        height: auto;
+    }
+
+    .follow-up-plan {
+        width: 100%;
+        height: auto;
+    }
+
+    .follow-up-plan ul{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .follow-up {
+        /* width: 100%;
+        height: auto; */
+        padding: 20px 10px 10px 0;
+    }
+
+    .follow-up h2{
+        width: 95%;
+        height: auto;
+        padding: 10px 20px 10px 40px;
+        font-size: 20px;
+    }
+
+    .follow-up-plan {
+        width: 100%;
+        height: auto;
+        margin: 20px 5px;
+    }
+}
+/* ------------------Follow up ends here-------------------- */
+
+
+/* ------------------Jakafi starts here-------------------- */
+@media screen and (max-width: 1024px) {
+    .jakafi{
+        width: 100%;
+        height: auto;
+        padding: 22px 60px;
+    }
+
+    .jakafi p{
+        margin-bottom: 8px;
+    }
+
+    .jakafi p:first-child{
+        font-size: 16;
+        height: auto;
+    }
+
+    .jakafi p:nth-child(2) {
+        font-size: 35px;
+        height: auto;
+    }
+
+    .jakafi p:nth-child(3) {
+        font-size: 22px;
+        height: auto;
+    }
+
+    .jakafi p:last-child{
+        font-size: 14px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .jakafi {
+        padding: 22px 30px;
+    }
+}
+/* ------------------Jakafi ends here-------------------- */
+
+
+/* ------------------Jakafi-vs-bat starts here-------------------- */
+@media screen and (max-width: 1024px) {
+    .jakafi-vs-bat {
+        width: 100%;
+    }
+
+    .jakafi-vs-bat h2{
+        width: 95%;
+        height: auto;
+        padding: 10px 20px 10px 40px;
+        font-size: 20px;
+    }
+
+    .grid-container {
+        width: 100%;
+        height: auto;
+        grid-template-columns: auto auto;
+        margin: 20px 0 20px 35px;
+    }
+
+    .grid-container .grid-itm h3{
+        height: auto;
+    }
+
+    .grid-container .grid-itm .graph-container{
+        height: auto;
+    }
+
+    .expert-voice {
+        width: 95%;
+    }
+
+    .expert-voice .voice{
+        width: 80%;
+    }
+
+    .expert-voice .voice p{
+        width: 75%;
+    }
+
+    .expert-voice .voice .expert-name{
+        width: 100%;
+        left: 60px;
+        bottom: -17px;
+    }
+
+    .expert-voice .voice .line{
+        left: 0;
+        bottom: 26px;
+    }
+
+    .jakafi-footnote {
+        width: 95%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid-container {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+
+    .jakafi-vs-bat .note {
+        margin-left: 35px;
+
+    }
+
+    .expert-voice {
+        width: 100%;
+        margin: 25px 45px;
+        border-radius: 0 100px 0 100px;
+        margin-top: 53px;
+    }
+
+    .expert-voice .expert-img {
+        width: 34%;
+        height: auto;
+        top: 71px;
+    }
+
+    .expert-voice .quot-mark{
+        width: 60px;
+        height: auto;
+        bottom: 240px;
+    }
+
+    .expert-voice .voice{
+        width: 90%;
+        bottom: 55px;
+        left: 55px;
+    }
+
+    .jakafi-footnote{
+        margin: 25px 60px 40px 60px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .jakafi-vs-bat {
+        padding: 20px 10px 20px 0;
+    }
+
+    .grid-container{
+        width: 90%;
+    }
+
+    .grid-container .grid-itm .graph-container {
+        padding: 15px 30px;
+    }
+
+    .expert-voice{
+        width: 90%;
+        height: 350px;
+        margin: 25px 10px 25px 30px;
+    }
+
+    .jakafi-footnote{
+        margin: 25px 30px 25px 30px;
+    }
+
+    .expert-voice .quot-mark{
+        bottom: 305px;
+    }
+
+    .expert-voice .voice{
+        bottom: 125px;
+        left: 35px;
+    }
+
+    .expert-voice .voice p{
+        width: 90%;
+        height: auto;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .expert-voice .voice .expert-name{
+        width: 60%;
+        font-size: 14px;
+        top: 130px;
+        left: 25px;
+    }
+
+    .expert-voice .expert-img{
+        width: 45%;
+        height: auto;
+        top: 199px;
+    }
+
+    .expert-voice .voice .line{
+        width: 15px;
+        bottom: 29px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .expert-voice .voice .expert-name{
+        top: 150px;
+    }
+
+    .expert-voice .voice .line {
+        bottom: 10px;
+    }
+
+    .expert-voice .expert-img{
+        top: 217px;
+    }
+
+    .jakafi-footnote {
+        margin: 25px 30px 25px 15px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .grid-container{
+        margin: 20px 0px 20px 20px;
+    }
+
+    .expert-voice .voice .line{
+        bottom: -15px;
+    }
+
+    .expert-voice .voice .expert-name{
+        top: 175px;
+    }
+
+    .expert-voice .expert-img{
+        top: 237px;
+    }
+
+}
+/* ------------------Jakafi-vs-bat ends here-------------------- */
+
+
+/* ----------------response rate starts here --------------*/
+@media screen and (max-width: 1024px) {
+    .response-rate{
+        width: 100%;
+        height: auto;
+    }
+
+    .response-rate h2{
+        width: 95%;
+        height: auto;
+        padding: 10px 20px 10px 40px;
+        font-size: 20px;
+    }
+
+    .response-rate .graph-container{
+        width: 100%;
+        height: auto;
+        margin: 20px 45px;
+    }
+
+    .response-rate .graph-container h3{
+        height: auto;
+    }
+
+    .response-rate .graph-container div{
+        height: auto;
+        padding: 15px;
+    }
+
+    .response-rate .footnote{
+        width: 90%;
+        height: auto;
+    }
+
+    .rr-expert-voice{
+        width: 95%;
+    }
+
+    .rr-expert-voice .quot-mark {
+        bottom: 207px;
+    }
+
+    .rr-expert-voice .voice{
+        width: 80%;
+    }
+
+    .rr-expert-voice .voice p{
+        width: 80%;
+        position: absolute;
+        bottom: 95px;
+    }
+
+    .rr-expert-voice .voice .expert-name{
+        left: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rr-expert-voice .voice .expert-name{
+        width: 80%;
+    }
+
+    .rr-expert-voice .expert-img {
+        width: 32%;
+        height: auto;
+        top: 55px;
+        left: 455px;
+    }
+
+    .rr-expert-voice .quot-mark{
+        width: 60px;
+        height: auto;
+        bottom: 215px;
+    }
+
+    .rr-expert-voice .voice{
+        width: 88%;
+        height: auto;
+        bottom: 25px;
+        left: 65px;
+    }
+}
+
+@media screen and (max-width :425px) {
+    .response-rate {
+        padding: 20px 10px 20px 0;
+    }
+
+    .response-rate .graph-container{
+        margin: 20px 5px;
+    }
+
+    .response-rate .footnote{
+        margin: 20px 25px;
+    }
+
+    .rr-expert-voice {
+        width: 90%;
+        height: 350px;
+        margin: 25px 10px 25px 30px;
+        border-radius: 0 100px 0 100px;
+    }
+
+    .rr-expert-voice .quot-mark{
+        bottom: 305px;
+    }
+
+    .rr-expert-voice .voice{
+        bottom: 115px;
+        left: 50px;
+    }
+
+    .rr-expert-voice .voice p{
+        width: 90%;
+        height: auto;
+        font-size: 16px;
+        line-height: 25px;
+        bottom: 57px;
+        right: 40px;
+    }
+
+    .rr-expert-voice .voice .expert-name{
+        width: 60%;
+        font-size: 14px;
+        top: -47px;
+        left: 25px;
+    }
+
+    .rr-expert-voice .voice .line{
+        width: 15px;
+        bottom: 29px;
+    }
+
+    .rr-expert-voice .expert-img{
+        width: 47%;
+        top: 180px;
+        left: 208px;
+    }
+}
+
+@media screen and (max-width :375px){
+    .rr-expert-voice{
+        border-radius: 0 50px 0 50px;
+    }
+
+    .rr-expert-voice .voice p{
+        bottom: 17px;
+    }
+
+    .rr-expert-voice .voice .expert-name{
+        top: -17px;
+        left: 19px;
+    }
+
+    .rr-expert-voice .voice .line{
+        bottom: 0;
+        left: -10px;
+    }
+
+    .rr-expert-voice .expert-img{
+        top: 201px;
+        left: 185px;
+    }
+}
+
+@media screen and (max-width :320px){
+    .rr-expert-voice .expert-img {
+        top: 224px;
+        left: 158px;
+    }
+}
+/* ----------------response rate ends here --------------*/
+
+
+/* ----------------jakafi demonstrated starts here --------------*/
+@media screen and (max-width: 1024px) {
+    .jakafi-demonstrated {
+        width: 100%;
+        height: auto;
+        padding: 32px 80px 32px 0;
+    }
+
+    .jakafi-demonstrated > p{
+        margin-left: 40px;
+    }
+
+    .jakafi-demonstrated h2{
+        width: 95%;
+        height: auto;
+        padding: 10px 20px 10px 40px;
+        font-size: 20px;
+    }
+
+    .dor-graph {
+        width: 100%;
+        height: auto;
+        margin: 20px 40px;
+    }
+
+    .jakafi-demonstrated .dor-graph h3{
+        height: auto;
+    }
+
+    .jakafi-demonstrated .dor-graph div {
+        height: auto;
+        padding: 23px 90.5px;
+    }
+
+    .jakafi-demonstrated .note{
+        margin-left: 40px;
+    }
+
+    .jakafi-demonstrated > h3{
+        margin-left: 40px;
+    }
+
+    .jakafi-demonstrated .pb1, .jakafi-demonstrated .pb2{
+        margin-left: 40px;
+    }
+
+    .jakafi-demonstrated-footnote{
+        width: 100%;
+        height: auto;
+        margin-left: 40px;
+    }
+
+    .jakafi-demonstrated p.foot-note{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .jakafi-demonstrated .probability{
+        width: 100%;
+        height: auto;
+    }
+
+    .jakafi-demonstrated > h3{
+        font-size: 18px;
+    }
+
+    .jakafi-demonstrated .probability p{
+        font-size: 16px;
+    }
+
+    .probability .big-text{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .jakafi-demonstrated .dor-graph div{
+        padding: 15px;
+    }
+}
+/* ----------------jakafi demonstrated endss here --------------*/
+
+/* ----------------jakafi adverse reaction starts here --------------*/
+@media screen and (max-width: 1024px) {
+    .jakafi-adverse {
+        width: 100%;
+        height: auto;
+    }
+
+    .jakafi-adverse h2 {
+        width: 95%;
+        height: auto;
+        padding: 10px 20px 10px 40px;
+        font-size: 20px;
+    }
+
+    .jakafi-adverse table {
+        width: 100%;
+        margin: 0 40px;
+    }
+
+    .jakafi-adverse .table-note{
+        width: 95%;
+        height: auto;
+        margin: 20px 40px;
+    }
+
+    .jakafi-adverse .final-analysis {
+        width: 80%;
+        height: auto;
+        margin-left: 238px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .jakafi-adverse .final-analysis {
+        width: 100%;
+        margin-left: 40px;
+        border-radius: 6px 45px 6px 45px;
+        padding: 5px 25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .jakafi-adverse p:first-of-type{
+        font-size: 18px;
+    }
+
+    .jakafi-adverse table {
+        width: 100%;
+        margin: 0 40px;
+        overflow-x: auto;
+        display: block;
+        height: auto;
+    }
+
+    .jakafi-adverse table thead .head-row-2 th{
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .jakafi-adverse table tbody tr td{
+        font-size: 16px;
+        padding: 2px;
+    }
+}
+/* ----------------jakafi adverse reaction ends here --------------*/
+
+/* ----------------references, indication usage, safety starts here --------------*/
+@media screen and (max-width: 1024px) {
+    h3.ref{
+        margin: 20px 55px;
+    }
+    ol.references {
+        width: 95%;
+        height: auto;
+        margin: 10px 60px 30px 60px;
+    }
+
+    .indication-usage {
+        width: 95%;
+        height: auto;
+        margin: 30px 52px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    ol.references {
+        margin: 10px 20px 30px 20px;
+    }
+
+    .indication-usage {
+        margin: 30px 15px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    ol.references {
+        margin: 10px 10px 30px 10px;
+    }
+
+    ol.references li{
+        width: 90%;
+        height: auto;
+        font-size: 14px;
+    }
+
+    .indication-usage {
+        margin: 30px 15px;
+    }
+
+    .safety li{
+        width: 90%;
+        height: auto;
+        font-size: 14px;
+    }
+
+}
+/* ----------------references, indication usage, safety ends here --------------*/
+
+/* ----------------footer starts here --------------*/
+@media screen and (max-width: 1024px) {
+    footer{
+        width: 100%;
+        height: auto;
+        padding: 43px 80px;
+    }
+
+    .footer-top{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-bottom{
+        width: 100%;
+        height: auto;
+    }
+
+    .copy-link{
+        gap: 0;
+        height: 28px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    footer{
+        padding: 43px 23px;
+    }
+    
+    .footer-top .texts {
+        width: 100%;
+        height: auto;
+    }
+}
+/* ----------------footer ends here --------------*/
+
