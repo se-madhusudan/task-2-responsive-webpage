@@ -19,14 +19,73 @@
 }
 
 @media screen and (max-width: 800px){
-    .main-header ul {
+    /* .main-header ul {
         flex-direction: column;
         gap: 10px;
     }
 
     .main-header ul li a{
         font-size: 16px;
+    } */
+
+
+
+    /* mobile menue */
+    .main-header{
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
     }
+
+    .menu-icon {
+        padding: 5px;
+    }
+
+    .menu-icon .line{
+        width: 30px;
+        height: 5px;
+        background-image: linear-gradient(to right, #84368D, #4C2F91);
+        margin: 5px;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        background-color:  #4C2F91;
+        width: 50%;
+        height: calc(100vh - 40px);
+        padding: 60px 20px;
+        z-index: 999999;
+        right: 0;
+        top: 78px;
+        transition: display 10s linear 5s;
+    }
+
+    .main-header ul {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: flex-start;
+    }
+
+    .main-header ul li a{
+        text-decoration: none;
+        color: #f4fdee;
+    }
+
+    .main-header ul li:first-child a, .main-header ul li:last-child a{
+        color: #f4fdee;
+        border-bottom: 0px solid #6EB43F;
+    }
+
+    .main-header ul li a:active{
+        text-decoration: underline;
+    }
+
+
+
 
 }
 /* --------------------header ends here------------------- */

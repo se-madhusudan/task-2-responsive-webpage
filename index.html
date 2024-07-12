@@ -20,6 +20,16 @@
                 </div>
                 <div class="main-header">
                     <img src="images/main-head-logo.png" alt="logo">
+
+                    <!-- Mobile menu icon -->
+                    <a href="javascript:void(0)" onclick="toogle()">
+                        <div class="menu-icon">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                    </a>
+
                     <nav>
                         <ul>
                             <li><a href="#">Patient Characteristics</a></li>
@@ -400,5 +410,17 @@
                 </div>
             </footer>
         </div>
+
+        <!-- For toogling mobile menu -->
+        <script>
+            function toogle() {
+              var ele = document.getElementsByTagName("nav")[0];
+              if (ele.style.display === "block") {
+                ele.style.display = "none";
+              } else {
+                ele.style.display = "block";
+              }
+            }
+        </script>
     </body>
 </html>
