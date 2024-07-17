@@ -60,8 +60,7 @@
         padding: 60px 20px;
         z-index: 999999;
         right: 0;
-        top: 78px;
-        transition: display 10s linear 5s;
+        top: 68px;
     }
 
     .main-header ul {
@@ -83,10 +82,18 @@
     .main-header ul li a:active{
         text-decoration: underline;
     }
+}
 
+@media screen and (max-width: 425px) {
+    nav {
+        width: 60%;
+    }
+}
 
-
-
+@media screen and (max-width: 375px) {
+    nav {
+        width: 75%;
+    }
 }
 /* --------------------header ends here------------------- */
 
